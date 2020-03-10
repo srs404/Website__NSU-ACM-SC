@@ -1,0 +1,29 @@
+[26-Mar-2019 07:12:49 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:12:49 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:12:50 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:14:25 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:14:25 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:17:55 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:17:56 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:18:19 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:18:20 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:19:36 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 07:19:36 UTC] PHP Fatal error:  Call to undefined function get_field() in /home/nsuschosting/public_html/wp/wp-content/themes/ACM/src/ACMUtils.php on line 89
+[26-Mar-2019 19:36:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/nsuschosting/public_html/wp-includes/class-wp-query.php on line 755
+[26-Mar-2019 19:40:23 UTC] PHP Warning:  trim() expects parameter 1 to be string, array given in /home/nsuschosting/public_html/wp-includes/class-wp-query.php on line 755
+[28-Jun-2019 00:18:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WPSEO_Sitemaps_Cache' not found in /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/src/Tribe/Template.php on line 589
+[27-Jun-2019 20:18:19 America/New_York] PHP Fatal error:  Cannot destroy active lambda function in /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/src/Tribe/Template.php on line 589
+[02-Jul-2019 12:35:15 America/New_York] PHP Warning:  Uncaught exception 'RuntimeException' with message 'Error while making  'promoter.connector': Class Tribe__Promoter__Connector does not exist' in /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php:348
+Stack trace:
+#0 /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php(281): tad_DI52_Container->resolve('promoter.connec...')
+#1 /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/closuresSupport.php(23): tad_DI52_Container->make('promoter.connec...')
+#2 [internal function]: {closure}(false)
+#3 /home/nsuschosting/public_html/wp-includes/class-wp-hook.php(286): call_user_func_array(Object(Closure), Array)
+#4 /home/nsuschosting/public_html/wp-includes/plugin.php(208): WP_Hook->apply_filters(false, Array)
+#5 /home/nsuschosting/public_html/wp-includes/user.php(2701): apply_filters('determine_curre...', false)
+#6 /h in /home/nsuschosting/public_html/wp-content/plugins/the-events-calendar/common/vendor/lucatume/di52/src/tad/DI52/Container.php on line 348
+[02-Jul-2019 12:35:15 America/New_York] PHP Fatal error:  Cannot destroy active lambda function in [no active file] on line 0
+[02-Jul-2019 21:29:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WPSEO_Sitemaps_Cache' not found in /home/nsuschosting/public_html/wp-content/plugins/wordpress-seo/frontend/class-json-ld.php on line 325
+[05-Jul-2019 07:23:40 America/New_York] PHP Fatal error:  Cannot destroy active lambda function in [no active file] on line 0
+[25-Aug-2019 10:25:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WPSEO_Sitemaps_Cache' not found in /home/nsuschosting/public_html/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-select.php on line 365
+[31-Aug-2019 11:10:53 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'WPSEO_Sitemaps_Cache' not found in /home/nsuschosting/public_html/wp-content/plugins/advanced-custom-fields/includes/fields/class-acf-field-radio.php on line 229

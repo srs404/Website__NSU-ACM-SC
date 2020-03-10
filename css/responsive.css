@@ -1,0 +1,241 @@
+@media(min-width: 992px) and (max-width: 1199px){
+    #banner_part .banner{
+        height: calc(100vh - 390px);
+    }
+    #ad_part .ad-banner .ad-text h2{
+        padding: 90px 0 30px;
+    }
+
+    #officials_part .official_body .c_body{
+        width: 230px;
+        height: 323px;
+    }
+
+    #team_part{
+        margin-bottom: 350px;
+    }
+
+    #team_part .team_tab > ul > li{
+        padding: 10px 37px;
+    }
+    #news_part .news .notices .body .one .right{
+        overflow: scroll;
+    }
+
+    
+}
+@media(max-width: 991px){
+    #header_part .navbar-toggler{
+        margin-left: auto;
+        border: 1px solid #222;
+        margin-right: 20px;
+    }
+    #header_part nav ul li a.nav-link{
+        line-height: 60px;
+        background: #222;
+        color: #fff;
+    }
+    #navbarSupportedContent {
+        z-index: 9999999999999999;
+        margin: 18px 0;
+      }
+      #header_part nav ul li .nav-link.active::before,
+      #header_part nav ul li .nav-link.active::after{
+          display: none;
+      }
+      #header_part .nav-link:hover{
+          background: #00c7ff;
+      }
+      #header_part nav ul li a.nav-link{
+          text-align: center;
+      }
+
+    #header_part nav .join_us a{
+        z-index: 999999999999999999999999999999;
+        margin-left: 0;
+    }
+    #officials_part .official_body .button a,
+    #ad_part .ad-banner .ad-text a{
+        padding: 5px 30px;
+    }
+    #news_part .news .body .one .right,
+    #news_part .news .notices .body .one .right{
+        overflow: scroll;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    #banner_part .banner .animated_headline .headline h1,
+    #banner_part .banner .animated_headline .headline span b{
+        font-size: 60px;
+    }
+    #banner_part .banner{
+        height: calc(100vh - 350px);
+    }
+    #ad_part .ad-banner .ad-text h2{
+        padding: 50px 0 30px;
+    }
+    #ad_part .ad-banner .ad-video a i{
+        top: 50%;
+    }
+    #officials_part .official_body .c_body {
+
+        width: 170px;
+        height: 280px;
+    }
+    #team_part {
+        margin-bottom: 450px;
+    }
+    #team_part .team_tab > ul > li {
+        padding: 10px 29px;
+        margin-bottom: 13px;
+    }
+    #news_part .news h3 {
+        font-size: 30px;
+    }
+    #news_part .news .body .one .right,
+    #news_part .news .notices .body .one .right{
+        overflow: scroll;
+    }
+    #news_part .news .body .one .right h5 {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px){
+    #banner_part .banner .overlay .box{
+        width: 500px;
+    }
+    #banner_part .banner{
+        height: calc(100vh - 350px);
+    }
+    #banner_part .banner .animated_headline{
+        margin-top: 115px;
+    }
+    #ad_part .ad-banner .ad-text h2{
+    font-size: 30px;
+    padding: 65px 0 30px;
+    }
+    #ad_part .ad-banner .ad-text p{
+        font-size: 16px !important;
+    }
+    #officials_part .official_body .c_body {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    #team_part {
+        margin-bottom: 550px;
+    }
+    #counter_up .overlay .counters .parts h5 {
+        font-size: 45px;
+    }
+    #counter_up .overlay .counters .parts p {
+        font-size: 15px !important;
+    }
+    #blog_part .blog .fa-chevron-left {
+        font-size: 30px;
+        left: -15px;
+    }
+    #blog_part .blog .fa-chevron-right{
+        font-size: 30px;
+        right: -15px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 575px){
+    #header_part nav .join_us a{
+        padding: 5px 30px;
+    }
+    #banner_part .banner{
+        height: calc(100vh - 350px);
+    }
+    #banner_part .banner .overlay .box{
+        width: 285px;
+    }
+    #banner_part .banner .overlay .box h2{
+        font-style: 35px;
+    }
+    #banner_part .banner .overlay .box h1{
+        font-size: 62px;
+    }
+    #banner_part .banner .animated_headline .headline{
+        height: 145px;
+    }
+    #banner_part .banner .animated_headline .headline h1{
+        font-size: 50px;
+        line-height: 145px;
+    }
+    #banner_part .banner .animated_headline .headline span b{
+        font-size: 50px;
+    }
+    #ad_part .ad-title h4{
+        line-height: 70px;
+    }
+    #ad_part .ad-banner .ad-text h2{
+        font-size: 30px;
+        padding: 50px 0 20px;
+        text-align: center;
+    }
+    #ad_part .ad-banner .ad-text p{
+        font-size: 16px !important;
+        padding-bottom: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #ad_part .ad-banner .ad-video a i{
+        top: 255%;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 30px;
+    }
+
+    #about_part .about .about_text h4{
+        text-align: center;
+    }
+    #about_part .about .about_text h4::after{
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    #about_part .about_text {
+        padding-left: 10px;
+    }
+    #about_part .about .about_text a{
+        padding: 5px 30px;
+    }
+    #about_part .about .about_video .video {
+        width: 290px;
+        height: 215px;
+    }
+    #officials_part .official_body .c_body {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    #officials_part .official_body .button a, #ad_part .ad-banner .ad-text a{
+        display: block;
+        text-align: center;
+    }
+    #team_part {
+        margin-bottom: 950px;
+    }
+    #counter_up {
+
+        height: 200px;
+    }
+    #counter_up .overlay .counters .parts h5 {
+        font-size: 25px;
+    }
+    #counter_up .overlay .counters .parts p {
+
+        font-size: 9px !important;
+    }
+    #news_part .news h3 {
+        font-size: 25px;
+    }
+
+}

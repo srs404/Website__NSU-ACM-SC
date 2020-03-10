@@ -1,0 +1,28 @@
+{
+  "videos": [
+    [
+      {
+        "id": "iIl-CbmHO9M",
+        "title": "Mac 16 Word Article Header Tagging - Pt.1",
+        "description": "Authors using Word for MAC 2016 ACM authoring template, will need to read the Word for Windows User Guide or view the video documentation to help you through tagging document header, body, and references. We've also provided a video which walks you through the template validation process."
+      },
+      {
+        "id": "kPKIz-bG5-k",
+        "title": "Mac 16 Word Article Body Tagging - Pt.2",
+        "description": "Authors using Word for MAC 2016 ACM authoring template, will need to read the Word for Windows User Guide or view the video documentation to help you through tagging document header, body, and references. We've also provided a video which walks you through the template validation process."
+      },
+      {
+        "id": "ahUJBZQ60Yo",
+        "title": "Mac 16 Word Article Body Tagging - Pt.3",
+        "description": "Authors using Word for MAC 2016 ACM authoring template, will need to read the Word for Windows User Guide or view the video documentation to help you through tagging document header, body, and references. We've also provided a video which walks you through the template validation process."
+      }
+    ],
+    [
+      {
+        "id": "P-UH2aJxLbs",
+        "title": "Mac 16 Word Article Body Tagging - Pt.4",
+        "description": "Authors using Word for MAC 2016 ACM authoring template, will need to read the Word for Windows User Guide or view the video documentation to help you through tagging document header, body, and references. We've also provided a video which walks you through the template validation process."
+      }
+    ]
+  ]
+}
