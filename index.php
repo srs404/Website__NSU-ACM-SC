@@ -9,24 +9,25 @@
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Rubik:400,500,700,900&display=swap"
         rel="stylesheet">
     <!--    Icon     -->
-    <link rel="icon" href="images/acm.png">
+    <link rel="icon" href="assets/images/acm.png">
 
     <!--    Bootstrap 4 CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!--    VenoBox CSS-->
-    <link rel="stylesheet" href="css/venobox.css">
+    <link rel="stylesheet" href="assets/css/venobox.css">
     <!-- <link rel="stylesheet" href="css/normalize.min.css"> -->
     <!--    Slick Carousel CSS Files     -->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/animated-headline.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/animated-headline.css">
     <!--    Font Awesome CSS-->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Flaticon CSS File -->
-    <link rel="stylesheet" href="font/flaticon.css">
+    <link rel="stylesheet" href="assets/font/flaticon.css">
     <!--    Main CSS File-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-team.css">
     <!-- Responsive CSS File -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
 
     <title>NSU ACM SC</title>
 </head>
@@ -37,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-12 p-0">
                     <nav class="navbar navbar-expand-lg bg1 p-0">
-                        <a class="navbar-brand p-0" href="#"><img src="images/acm.png" alt=""></a>
+                        <a class="navbar-brand p-0" href="#"><img src="assets/images/acm.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +65,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- <div class="join_us"><a href="#">Join Us</a></div> -->
+                        <div class="join_us"><a href="#">Join Us</a></div>
                     </nav>
                 </div>
             </div>
@@ -84,28 +85,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="animated_headline">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-12 p-0">
-                                <div class="headline">
-                                    <h1 class="cd-headline letters rotate-2">we are
-                                        <span class="cd-words-wrapper">
-                                            <b class="is-visible">innovative</b>
-                                            <b>geeky</b>
-                                            <b>creative</b>
-                                        </span>
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
     <!--    Banner Part Ends     -->
-
     <section id="ad_part">
         <div class="container">
             <div class="row">
@@ -188,7 +171,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><center>
         <div class="official_body">
             <div class="overlay">
                 <div class="container">
@@ -198,7 +181,7 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/chair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/chair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Sabbir Mollah</h5>
@@ -213,7 +196,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/vicechair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/vicechair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Mehrab Mamun Ratul</h5>
@@ -228,7 +211,7 @@
                             </div>
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/secretary.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/secretary.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Abdullah Al Rafi</h5>
@@ -250,7 +233,7 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/treasurer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/treasurer.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Sayem Ahmed</h5>
@@ -265,7 +248,7 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/webmaster.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/webmaster.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Shadab Hafiz Choudhury</h5>
@@ -281,7 +264,7 @@
 
                             <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="c_body"
-                                    style="background: url(images/membershipchair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                                    style="background: url(assets/images/users/current/membershipchair.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                     <div class="e_body">
                                         <div class="info">
                                             <h5>Ayesha Rahman</h5>
@@ -295,10 +278,13 @@
                                 </div>
                             </div>
 
+
+
                         </div>
                     </div>
                 </div>
             </div>
+            <br><hr><center><a class="btn btn-lg btn-info" align="center" href="members.php">All Members</a><hr></center>
 
             <!-- <div class="row">
             <div class="col-lg-12">
@@ -307,7 +293,7 @@
               </div>
             </div>
           </div> Unnecessary Button-->
-        </div>
+        </div></center>
         </div>
         </div>
     </section>
@@ -338,7 +324,7 @@
                                         <a href="#">
                                             <h2 class="heading">Operations & Logistics</h2>
                                         </a>
-                                        <img src="images/acm.png">
+                                        <img src="assets/images/acm.png">
                                         <p>The biggest team, Operations and Logistics ensures the smooth management and
                                             execution of NSU ACM SC's events. The vast majority of the technical
                                             expertise and manpower necessary to ensure an event is a great success is
@@ -350,7 +336,7 @@
                                         <a href="#">
                                             <h2 class="heading">Promotions</h2>
                                         </a>
-                                        <img src="images/acm.png">
+                                        <img src="assets/images/acm.png">
                                         <p>When there is a need for promotional materials, whether posters, graphics or
                                             videos, Promotions is at the forefront of those efforts. Promotions works
                                             closely with all other teams to create all the stunning posters and designs
@@ -361,7 +347,7 @@
                                         <a href="#">
                                             <h2 class="heading">Corporate</h2>
                                         </a>
-                                        <img src="images/acm.png">
+                                        <img src="assets/images/acm.png">
                                         <p>Liaising with other organizations in the digital sector of Bangladesh is the
                                             job of the corporate team. Corporate manages the funding and sponsorship
                                             necessary to organize and host events on such a large scale. Without the
@@ -373,7 +359,7 @@
                                         <a href="#">
                                             <h2 class="heading">Publications</h2>
                                         </a>
-                                        <img src="images/acm.png">
+                                        <img src="assets/images/acm.png">
                                         <p>Publications creates the news article and event post that show others what
                                             NSU ACM is all about. Before and after every event, Publications creates and
                                             releases press releases to newspapers and university websites, reporting on
@@ -443,17 +429,17 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="small mt_30">
-                                <img src="images/small-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/small-1.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/small-1.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/small-1.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
                             </div>
                             <div class="large mt_30">
-                                <img src="images/large-1.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/large-1.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/large-1.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/large-1.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -461,17 +447,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="large mt_30">
-                                <img src="images/large-2.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/large-2.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/large-2.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/large-2.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
                             </div>
                             <div class="small mt_30">
-                                <img src="images/small-2.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/small-2.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/small-2.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/small-2.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -479,17 +465,17 @@
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="small mt_30">
-                                <img src="images/small-3.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/small-3.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/small-3.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/small-3.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
                             </div>
                             <div class="large mt_30">
-                                <img src="images/large-3.jpg" class="img-fluid" alt="">
+                                <img src="assets/images/large-3.jpg" class="img-fluid" alt="">
                                 <div class="item_overlay">
-                                    <a class="venobox" data-gall="gallery01" href="images/large-3.jpg">
+                                    <a class="venobox" data-gall="gallery01" href="assets/images/large-3.jpg">
                                         <i class="fa fa-search-plus"></i>
                                     </a>
                                 </div>
@@ -512,7 +498,7 @@
                         <div class="col-lg-4">
                             <div class="one">
                                 <a href="#">
-                                    <img src="images/acm.png" alt="acm.png">
+                                    <img src="assets/images/acm.png" alt="acm.png">
                                 </a>
                                 <p>SAC (10th Floor), North South University, Bashundhara, Dhaka-1229, Bangladesh</p>
                             </div>
@@ -565,18 +551,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src='js/jquery-1.12.4.min.js'></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src='js/jquery-ui.min.js'></script>
-    <script src="js/venobox.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/fa-script.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src='assets/js/jquery-1.12.4.min.js'></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src='assets/js/jquery-ui.min.js'></script>
+    <script src="assets/js/venobox.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/animated-headline.js"></script>
+    <script src="assets/js/fa-script.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
