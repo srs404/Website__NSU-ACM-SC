@@ -31,7 +31,6 @@
 
     <title>NSU ACM SC</title>
 </head>
-
 <body data-spy="scroll" data-target="#header_part" data-offset='50'>
     <header id="header_part">
         <div class="container">
