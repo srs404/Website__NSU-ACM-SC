@@ -181,7 +181,7 @@ $members = getAllMember();
 
                                                     <?php foreach ($members as $m): ?>
                                                     <?php if($m['position'] == "SUB-EB" && $m['team'] == "Operations & Logistics"){ ?>
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -215,7 +215,7 @@ $members = getAllMember();
 
                                                     <?php foreach ($members as $m): ?>
                                                     <?php if($m['position'] == "Incharge" && $m['team'] == "Operations & Logistics"){ ?>
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -249,7 +249,7 @@ $members = getAllMember();
 
                                                         <?php foreach ($members as $m): ?>
                                                         <?php if($m['position'] == "Senior Member" && $m['team'] == "Operations & Logistics"){ ?>
-                                                        <div class="col-lg-3 col-md-3 col-sm-12">
+                                                        <div class="container col-lg-3 col-md-3 col-sm-12">
                                                             <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                                 <div class="e_body">
                                                                     <div class="info">
@@ -284,7 +284,7 @@ $members = getAllMember();
                                                       <?php foreach ($members as $m): ?>
                                                       <?php if($m['position'] == "General Member" && $m['team'] == "Operations & Logistics"){ ?>
 
-                                                      <div class="col-lg-3 col-md-3 col-sm-12">
+                                                      <div class="container col-lg-3 col-md-3 col-sm-12">
                                                           <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                               <div class="e_body">
                                                                   <div class="info">
@@ -322,7 +322,7 @@ $members = getAllMember();
                                                         if($m['position'] == "Probationary Member" && $m['team'] == "Operations & Logistics"){
                                                     ?>
 
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -371,7 +371,7 @@ $members = getAllMember();
 
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "SUB-EB" && $m['team'] == "Promotions"){ ?>
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -405,7 +405,7 @@ $members = getAllMember();
 
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "Incharge" && $m['team'] == "Promotions"){ ?>
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -439,7 +439,7 @@ $members = getAllMember();
 
                                                       <?php foreach ($members as $m): ?>
                                                       <?php if($m['position'] == "Senior Member" && $m['team'] == "Promotions"){ ?>
-                                                      <div class="col-lg-3 col-md-3 col-sm-12">
+                                                      <div class="container col-lg-3 col-md-3 col-sm-12">
                                                           <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                               <div class="e_body">
                                                                   <div class="info">
@@ -474,7 +474,7 @@ $members = getAllMember();
                                                     <?php foreach ($members as $m): ?>
                                                     <?php if($m['position'] == "General Member" && $m['team'] == "Promotions"){ ?>
 
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -510,7 +510,7 @@ $members = getAllMember();
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "Probationary Member" && $m['team'] == "Promotions"){ ?>
 
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -559,7 +559,7 @@ $members = getAllMember();
 
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "SUB-EB" && $m['team'] == "Corporate"){ ?>
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -593,7 +593,7 @@ $members = getAllMember();
 
                                                 <?php foreach ($members as $m): ?>
                                                 <?php if($m['position'] == "Incharge" && $m['team'] == "Corporate"){ ?>
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                <div class="container col-lg-3 col-md-3 col-sm-12">
                                                     <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                         <div class="e_body">
                                                             <div class="info">
@@ -627,7 +627,7 @@ $members = getAllMember();
 
                                                       <?php foreach ($members as $m): ?>
                                                       <?php if($m['position'] == "Senior Member" && $m['team'] == "Corporate"){ ?>
-                                                      <div class="col-lg-3 col-md-3 col-sm-12">
+                                                      <div class="container col-lg-3 col-md-3 col-sm-12">
                                                           <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                               <div class="e_body">
                                                                   <div class="info">
@@ -662,7 +662,7 @@ $members = getAllMember();
                                                     <?php foreach ($members as $m): ?>
                                                     <?php if($m['position'] == "General Member" && $m['team'] == "Corporate"){ ?>
 
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -698,7 +698,7 @@ $members = getAllMember();
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "Probationary Member" && $m['team'] == "Corporate"){ ?>
 
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -747,7 +747,7 @@ $members = getAllMember();
 
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "SUB-EB" && $m['team'] == "Publications"){ ?>
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
@@ -781,7 +781,7 @@ $members = getAllMember();
 
                                                 <?php foreach ($members as $m): ?>
                                                 <?php if($m['position'] == "Incharge" && $m['team'] == "Publications"){ ?>
-                                                <div class="col-lg-3 col-md-3 col-sm-12">
+                                                <div class="container col-lg-3 col-md-3 col-sm-12">
                                                     <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                         <div class="e_body">
                                                             <div class="info">
@@ -815,7 +815,7 @@ $members = getAllMember();
 
                                                       <?php foreach ($members as $m): ?>
                                                       <?php if($m['position'] == "Senior Member" && $m['team'] == "Publications"){ ?>
-                                                      <div class="col-lg-3 col-md-3 col-sm-12">
+                                                      <div class="container col-lg-3 col-md-3 col-sm-12">
                                                           <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                               <div class="e_body">
                                                                   <div class="info">
@@ -850,7 +850,7 @@ $members = getAllMember();
                                                     <?php foreach ($members as $m): ?>
                                                     <?php if($m['position'] == "General Member" && $m['team'] == "Publications"){ ?>
 
-                                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                                    <div class="container col-lg-3 col-md-3 col-sm-12">
                                                         <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                             <div class="e_body">
                                                                 <div class="info">
@@ -886,7 +886,7 @@ $members = getAllMember();
                                                   <?php foreach ($members as $m): ?>
                                                   <?php if($m['position'] == "Probationary Member" && $m['team'] == "Publications"){ ?>
 
-                                                  <div class="col-lg-3 col-md-3 col-sm-12">
+                                                  <div class="container col-lg-3 col-md-3 col-sm-12">
                                                       <div class="c_body" style="background: url(assets/images/users/current/<?php echo $m['image']; ?>); background-position: center; background-size: cover; background-repeat: no-repeat;">
                                                           <div class="e_body">
                                                               <div class="info">
