@@ -86,10 +86,10 @@
     <section id="banner_part">
         <div class="banner h-50">
             <div class="overlay">
-                <div class="container">
+                <div class="container p-5">
                     <div class="row">
                         <div class="col-lg-12 p-5">
-                            <div class="box">
+                            <div class="box mt-0 mb-5">
                                 <h2>Welcome to</h2>
                                 <h1>NSU ACM SC</h1>
                             </div>
