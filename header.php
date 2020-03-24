@@ -71,9 +71,12 @@
                               <li class="nav-item">
                                   <a class="nav-link" href="index.php#team_part">Teams</a>
                               </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="index.php#">Log In</a>
+                              </li>
                           </ul>
                       </div>
-                      <div class="join_us"><a href="#">Join Us</a></div>
+                      <div class="join_us"><a href="#">Apply</a></div>
                   </nav>
               </div>
           </div>
@@ -81,12 +84,12 @@
   </header>
   <!--    Header Part Ends-->
     <section id="banner_part">
-        <div class="banner">
+        <div class="banner h-50">
             <div class="overlay">
-                <div class="container">
+                <div class="container p-5">
                     <div class="row">
-                        <div class="col-lg-12">
-                            <div class="box">
+                        <div class="col-lg-12 p-5">
+                            <div class="box mt-0 mb-5">
                                 <h2>Welcome to</h2>
                                 <h1>NSU ACM SC</h1>
                             </div>
