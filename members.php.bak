@@ -146,6 +146,19 @@
           </div> Unnecessary Button -->
         </div></center>
 
+        <center><nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">...</div>
+  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
+  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">...</div>
+</div></center>
+
 <section id="team_part">
     <div class="team">
         <div class="container">
@@ -159,14 +172,15 @@
             <div class="row">
                 <div class="col-lg-12 m-0 p-0">
                     <div class="lightpage">
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                          <a class="nav-item nav-link active" id="nav-operation_logistics-tab" data-toggle="tab" href="#nav-operation_logistics" role="tab" aria-controls="nav-operation_logistics" aria-selected="true">Operations &amp; Logistics</a>
-                          <a class="nav-item nav-link" id="nav-promotions-tab" data-toggle="tab" href="#nav-promotions" role="tab" aria-controls="nav-promotions" aria-selected="false">Promotions</a>
-                          <a class="nav-item nav-link" id="nav-corporate-tab" data-toggle="tab" href="#nav-corporate" role="tab" aria-controls="nav-corporate" aria-selected="false">Corporate</a>
-                          <a class="nav-item nav-link" id="nav-publications-tab" data-toggle="tab" href="#nav-publications" role="tab" aria-controls="nav-publications" aria-selected="false">Corporate</a>
-                        </div>
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-operation_logistics" role="tabpanel" aria-labelledby="nav-operation_logistics-tab">
+                        <div class="team_tab">
+                            <ul>
+                                <li><a href="#logi_ad"><span>Operations &amp; Logistics</span></a></li>
+                                <li><a href="#op_pro"><span>Promotions</span></a></li>
+                                <li><a href="#corpo"><span>Corporate</span></a></li>
+                                <li><a href="#publi"><span>Publications</span></a></li>
+                            </ul>
+                            <div class="contents">
+                                <div id="logi_ad">
 
 
                                     <section id="core_body">
@@ -356,7 +370,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="nav-promotions" role="tabpanel" aria-labelledby="nav-promotions-tab">
+                                <div id="op_pro">
 
 
                                   <section id="core_body">
@@ -546,7 +560,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="nav-corporate" role="tabpanel" aria-labelledby="nav-corporate-tab">
+                                <div id="corpo">
 
 
                                   <section id="core_body">
@@ -734,7 +748,7 @@
 
 
                                 </div>
-                                <div class="tab-pane fade" id="nav-publications" role="tabpanel" aria-labelledby="nav-publications-tab">
+                                <div id="publi">
 
 
                                   <section id="core_body">

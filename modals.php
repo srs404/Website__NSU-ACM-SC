@@ -74,49 +74,95 @@
     <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="MemberLoginTitle">Add New Recruit</h4>
+                <h4 class="modal-title" id="MemberLoginTitle">Login Panel</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
 
             <div class="modal-body">
-              <!-- Basic Zone -->
-
-
-              <h2>Login Panel</h2>
-              <h4>Welcome Back</h4>
-              <hr style="height:1px;border:none;color:#333;background-color:#333;" /><br>
-
-
-              <!-- <form action="" method="post"> -->
 
                 <div class="row">
                   <div class="form-group col">
-                    <label for="">Full Name</label>
-                    <input required id="member_fname" name="full_name" placeholder="Full Name" class="form-control form-control-lg" type="text">
-
+                    <label for="">Username</label>
+                    <input required id="member_uname" name="member_uname" placeholder="Username" class="form-control form-control-lg" type="text">
                   </div>
-                  <div class="form-group col">
-                    <label for="">NSU ID</label>
-                    <input required id="member_nsuid" name="nsuid" placeholder="NSU ID" class="form-control form-control-lg" type="text" >
 
+                  <div class="form-group col">
+                    <label for="">Password</label>
+                    <input required id="member_password" type="password" name="member_password" class="form-control form-control-lg" placeholder="Password">
                   </div>
                 </div>
 
                 <div class="row">
                   <div class="form-group col">
-                    <label for="">Email Address</label>
-                    <input required id="member_email" type="text" name="email" class="form-control form-control-lg" placeholder="Email Address">
+                    <a href="#">Forgot Password</a>
                   </div>
-
                 </div>
 
               </div>
 
               <div class="modal-footer">
                   <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <input type="submit" id="MemberLoginBtn" name="MemberLoginBtn" value="Add Member" class="btn btn-primary">
+                  <input type="submit" id="MemberLoginBtn" name="MemberLoginBtn" value="Login" class="btn btn-primary">
+              </div>
+          </div>
+      </div>
+  </div>
+
+<!-- ========================================================== -->
+
+
+
+<!-- ============ Profile Overview Modal ===================== -->
+
+<!-- Long Content Scroll Modal -->
+<div class="modal fade bs-example-modal-center" id="ProfileOverview" tabindex="-1" role="dialog" aria-labelledby="AddRecruitTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="ProfileOverviewTitle">Login Panel</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+
+              <div class="profile_container">
+                  <div class="profile_inner p_120">
+                      <div class="row">
+                          <div class="col-lg-3">
+                              <img class="img-fluid" src="nsu_acm_logo.png">
+                          </div>
+                          <div class="col-lg-7">
+                              <div class="personal_text">
+                                  <h6>Hi there!! I am</h6>
+                                  <h3>ACM</h3>
+                                  <h4>An Organization, NOT a CLUB!!</h4>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam voluptate reprehenderit alias tempore repudiandae molestiae dicta molestias optio quidem unde, eos dignissimos culpa corporis similique nulla ipsum consequatur, quod ut?</p>
+                                  <ul class="list basic_info">
+                                      <li><i class="fa fa-calculator" aria-hidden="true"></i> 1st January, 1969</li>
+                                      <li><i class="fa fa-phone" aria-hidden="true"></i> 192 1097 642</li>
+                                      <li><i class="fa fa-envelope-o" aria-hidden="true"></i>nsu@northsouth.edu</li>
+                                      <li><i class="fa fa-home" aria-hidden="true"></i>10th floor SAC building, NSU</li>
+                                  </ul>
+                                  <ul class="list personal_social">
+                                      <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              </div>
+
+              <div class="modal-footer">
+                  <button class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <input type="submit" id="ProfileOverviewBtn" name="ProfileOverviewBtn" value="Login" class="btn btn-primary">
               </div>
           </div>
       </div>
@@ -127,7 +173,7 @@
 
 <!-- Long Content Scroll Modal -->
 <div class="modal fade bs-example-modal-center" id="AddRecruit" tabindex="-1" role="dialog" aria-labelledby="AddRecruitTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h4 class="modal-title" id="AddRecruitTitle">Add New Recruit</h4>
