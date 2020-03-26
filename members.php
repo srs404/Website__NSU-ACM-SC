@@ -159,7 +159,7 @@
             <div class="row">
                 <div class="col-lg-12 m-0 p-0">
                     <div class="lightpage">
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
                           <a class="nav-item nav-link active" id="nav-operation_logistics-tab" data-toggle="tab" href="#nav-operation_logistics" role="tab" aria-controls="nav-operation_logistics" aria-selected="true">Operations &amp; Logistics</a>
                           <a class="nav-item nav-link" id="nav-promotions-tab" data-toggle="tab" href="#nav-promotions" role="tab" aria-controls="nav-promotions" aria-selected="false">Promotions</a>
                           <a class="nav-item nav-link" id="nav-corporate-tab" data-toggle="tab" href="#nav-corporate" role="tab" aria-controls="nav-corporate" aria-selected="false">Corporate</a>
