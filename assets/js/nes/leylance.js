@@ -22,7 +22,7 @@ function passwordChange()
     let option = "usrPasswdChange";
 
     $.ajax({
-      url : 'ajax/all_data.php',
+      url : 'assets/app/data.php',
       data  : { old_pass:old_pass, new_pass:new_pass, option:option },
       method  : 'POST',
       success : function(data){

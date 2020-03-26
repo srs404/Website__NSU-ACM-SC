@@ -55,6 +55,18 @@
 
   });
 
+  //Toggle Login Button Button
+  $(document).on('click', 'a#MemberLoginToggle', function(){
+
+    clearAllInput();
+
+    $('#MemberLogin').modal('show');
+    // recruit_opt = 'add';
+
+    return false;
+
+  });
+
 
   $(document).ready(function(){
     $('input#addRecruit').click(function(){
@@ -129,7 +141,7 @@
 
           let option = 'input';
           $.ajax({
-            url : 'ajax/all_data.php',
+            url : 'assets/app/data.php',
             data  : { name:name, nsuid:nsuid, email:email, cell:cell, area:area, ques_join:ques_join, ques_heard:ques_heard, ques_other_club:ques_other_club, ques_connections:ques_connections, skills:skills, exp:exp, option:option },
             method  : 'POST',
             success : function(data){
@@ -142,7 +154,7 @@
 
           let option = 'edit';
           $.ajax({
-            url : 'ajax/all_data.php',
+            url : 'assets/app/data.php',
             data  : { name:name, nsuid:nsuid, email:email, cell:cell, area:area, ques_join:ques_join, ques_heard:ques_heard, ques_other_club:ques_other_club, ques_connections:ques_connections, skills:skills, exp:exp, option:option },
             method  : 'POST',
             success : function(data){
@@ -160,7 +172,7 @@
     function showAllData()
     {
       $.ajax({
-        url : 'ajax/all_data.php',
+        url : 'assets/app/data.php',
         success : function(data)
         {
           $('#allData').html(data);
@@ -174,7 +186,7 @@
       let option = 'delete';
 
       $.ajax({
-        url : 'ajax/all_data.php',
+        url : 'assets/app/data.php',
         data : { recruit_id: recruit_id, option:option },
         method : "POST",
         success : function(data)
@@ -280,7 +292,7 @@
         let option = 'accept';
 
         $.ajax({
-          url : 'ajax/all_data.php',
+          url : 'assets/app/data.php',
           data : { recruit_id: recruit_id, option:option },
           method : "POST",
           success : function(data)
@@ -324,7 +336,7 @@
       }
       else {
         $.ajax({
-          url : 'ajax/all_data.php',
+          url : 'assets/app/data.php',
           data : { recruit_id_current: recruit_id_current, team:team, option:option },
           method : "POST",
           success : function(data)

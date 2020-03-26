@@ -1,6 +1,15 @@
 <?php
-include('header.php');
-$members = getAllMember();
+  include('header.php');
+
+  if(!isset($_SESSION['members']['all_user']))
+  {
+    $_SESSION['members']['all_user'] = getAllMember();
+    $members = $_SESSION['members']['all_user'];
+  }
+  else {
+    $members = $_SESSION['members']['all_user'];
+  }
+
 ?>
 
 <section id="core_body">
