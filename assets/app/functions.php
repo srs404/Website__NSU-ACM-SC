@@ -45,5 +45,40 @@ function getAllMember()
   return $statement -> fetchAll();
 }
 
+function checkRecruit($id)
+  {
+    $conn = dbConnect();
+
+    $sql_recruit = "SELECT * FROM recruits WHERE nsuid = :nsuid";
+    $statement_recruit = $conn -> prepare($sql_recruit);
+    $statement_recruit -> execute([
+      ':nsuid'  =>  $id
+    ]);
+
+    $sql_member = "SELECT * FROM members WHERE nsuid = :nsuid";
+    $statement_member = $conn -> prepare($sql_member);
+    $statement_member -> execute([
+      ':nsuid'  =>  $id
+    ]);
+
+    $recruit = $statement_recruit  -> fetch(PDO::FETCH_ASSOC);
+    $member = $statement_member  -> fetch(PDO::FETCH_ASSOC);
+
+    $conn = null;
+
+    if($recruit)
+    {
+      return 'yes';
+    }
+    else if($member)
+    {
+      return 'yes';
+    }
+    else {
+      return 'no';
+    }
+
+  }
+
 
 ?>
