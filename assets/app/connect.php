@@ -9,7 +9,7 @@
   // $pass   = "";
   // $db     = "members_list";
 
-  $server = "sql164.main-hosting.eu";
+  $server = "localhost"; //sql164.main-hosting.eu
   $user   = "u266162680_root";
   $pass   = "01597530gonzoX";
   $db     = "u266162680_acm";
