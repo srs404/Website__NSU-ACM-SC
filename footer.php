@@ -74,6 +74,9 @@
 <script src="assets/js/fa-script.js"></script>
 <script src="assets/js/jquery.nicescroll.min.js"></script>
 <script src="assets/js/custom.js"></script>
+<script src="assets/js/nes/nes.js"></script>
+<script src="assets/js/nes/leylance.js"></script>
+<script src="assets/js/nes/custombox.min.js"></script>
 </body>
 
 </html>

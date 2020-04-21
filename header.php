@@ -36,6 +36,7 @@
     <link rel="stylesheet" href="assets/css/style-team.css">
     <!-- Responsive CSS File -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/custombox.min.css">
 
     <title>NSU ACM SC</title>
 </head>
@@ -72,11 +73,11 @@
                                   <a class="nav-link" href="index.php#team_part">Teams</a>
                               </li>
                               <li class="nav-item">
-                                  <a class="nav-link" href="index.php#">Log In</a>
+                                  <a class="nav-link" href="#" id="MemberLoginToggle">Log In</a>
                               </li>
                           </ul>
                       </div>
-                      <div class="join_us"><a href="#">Apply</a></div>
+                      <div class="join_us"><a href="#" id="add_recruit">Apply</a></div>
                   </nav>
               </div>
           </div>
@@ -100,3 +101,5 @@
         </div>
     </section>
     <!--    Banner Part Ends     -->
+
+<?php include "modals.php"; ?>
